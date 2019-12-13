@@ -15,7 +15,6 @@ TOKEN_SECRET_NAME = 'SF_TOKEN'
 TOKEN = keyring.get_password("system", TOKEN_SECRET_NAME)
 USERNAME = 'user@mongodb.com'
 PASSWORD = keyring.get_password("system", USERNAME)
-# PROCESS_KV = True
 
 TERMINAL_SIZE = int()
 if sys.stdout.isatty():
