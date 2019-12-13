@@ -13,7 +13,7 @@ signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 URL='https://mongodb.my.salesforce.com'
 TOKEN_SECRET_NAME = 'SF_TOKEN'
 TOKEN = keyring.get_password("system", TOKEN_SECRET_NAME)
-USERNAME = 'dmitry.ryabtsev@mongodb.com'
+USERNAME = 'user@mongodb.com'
 PASSWORD = keyring.get_password("system", USERNAME)
 # PROCESS_KV = True
 
