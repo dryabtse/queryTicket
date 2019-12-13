@@ -25,3 +25,7 @@ This will return the case's details along with the first comment
 ```
 python3 queryTicket.py 00623128 --num 1 
 ```
+This will print all of the comments on the ticket in ascending order:
+```
+python3 queryTicket.py 00623128
+```
