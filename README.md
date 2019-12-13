@@ -2,6 +2,7 @@
 A script that retrieves a support ticket data from SalesForce
 
 ### Requirements
+- Python 3
 - You will need to generate an API token for your account in SalesForce
 - The script expects the token and the user password to be stored and retrieved using [keyring](https://pypi.org/project/keyring/) (supports Keychain as a backend on OSX)
 
