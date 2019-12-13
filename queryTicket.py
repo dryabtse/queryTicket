@@ -358,7 +358,7 @@ def processArguments():
     parser = argparse.ArgumentParser(description='Query tickets information from SalesForce')
     parser.add_argument('ticket', metavar='T', type=str, nargs=1, help='8-digit ticket number')
     parser.add_argument('--order', metavar='O', type=str, nargs=1, help='order of comments to display; accepted values: asc, desc', default=['asc'])
-    parser.add_argument('--num', metavar='N', type=int, nargs=1, help='number of comments to display at once', default=-1)
+    parser.add_argument('--num', metavar='N', type=int, nargs=1, help='number of comments to display at once', default=[-1])
     args = parser.parse_args()
 
     ticket = ""
